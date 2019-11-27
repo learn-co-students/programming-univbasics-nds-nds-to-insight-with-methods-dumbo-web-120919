@@ -187,9 +187,15 @@ with "atomic" Ruby syntax like `[]`, we're working at a higher level of
 abstraction that's a "first step" or "first order" away from the foundational
 syntax.
 
+**IMPROVEMENT** 
+
+A "First-Order" method in real life can be compared to making a sandwich. First you must prepare the ingredients ie; grab the veggie, mayo etc. Then place said ingredients between the hero / roll. In this case, we placed the ingredients between the hero/roll by preparing the " def total_value_of_spinner" inside of the #Main code.
+
 A "First-Order" method in real life is "make a sandwich." It's many of many,
 many, smaller, atomic operations, but instead of thinking terms of _all_ of
 them, we talk about a "First-Order" activity, "make a sandwich."
+
+**REMOVE TOP **
 
 ## Ensure "First-Order Methods" Use Arguments to Create Flexibility
 
