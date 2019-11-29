@@ -9,7 +9,7 @@ require 'pp'
 def directors_totals(nds)
   pp nds
   result = {}
-  nil
+  
   director_index = 0 #row 
       director_total = 0 
   while director_index < directors_database.length do
