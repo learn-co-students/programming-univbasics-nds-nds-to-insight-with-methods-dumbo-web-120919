@@ -39,12 +39,12 @@ movie_counter = 0
 counter = 0 
 total = 0 
 
- while counter < directors_database.length do 
+ while counter < director_data[:movies].length do 
   p director_data[:movies][movie_counter][:worldwide_gross]
-  movie_counter += 1 
   total += director_data[:movies][movie_counter][:worldwide_gross]
   counter += 1 
+  movie_counter += 1 
  end 
 
-total
+total 
 end
